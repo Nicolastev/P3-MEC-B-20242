@@ -1,0 +1,67 @@
+## Completa el siguiente código para imprimir "Hola, Mundo" en la consola.
+
+public class HolaMundo {
+    public static void main(String[] args) {
+        System.out.println(<<Hola, Mundo>>);
+    }
+}
+
+## Completa el siguiente código para sumar dos números enteros y mostrar el resultado en la consola.
+
+public class Suma {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 3;
+        int suma = <<a + b>>;
+        System.out.println("La suma es: " + suma);
+    }
+}
+
+## Completa el siguiente código para definir un método estático que calcule el cuadrado de un número entero.
+
+public class Calculadora {
+    public static int cuadrado(int numero) {
+        return <<numero * numero>>;
+    }
+
+    public static void main(String[] args) {
+        int resultado = cuadrado(4);
+        System.out.println("El cuadrado es: " + resultado);
+    }
+}
+
+## En Java, una clase puede heredar de múltiples clases utilizando la palabra clave extends. {F}
+
+## Los métodos estáticos en Java pueden acceder a variables de instancia directamente sin necesidad de una instancia de la clase.{F}
+
+## El método main es el punto de entrada de un programa Java.{V}
+
+## ¿Cuál de las siguientes palabras clave se utiliza para crear una clase en Java?
+{
+~ function
+= class.
+~ method
+~ object
+}
+
+## ¿Cuál es el tipo de dato primitivo que se utiliza para almacenar un valor de tipo decimal en Java?
+{
+~ int
+~ boolean
+= float.
+~ char
+}
+## ¿Cuál de las siguientes opciones es correcta para la declaración de un arreglo de enteros en Java?
+{
+= int[] arreglo = new int[10];
+~ int arreglo = new int[10];
+~ int[10] arreglo = new int[];
+~ array int arreglo = new int[10];
+}
+## ¿Qué palabra clave se utiliza en Java para evitar que una clase sea extendida (heredada)?
+{
+~ static
+~ abstract
+= final.
+~ extends
+}
